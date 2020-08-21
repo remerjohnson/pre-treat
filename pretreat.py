@@ -10,6 +10,8 @@ Made with Gooey:
                            __/ |
                           |___/
 
+PRE-TREAT
+=========
 This program will automagically perform common metadata
 operations on files, making a GUI via Gooey
 """
@@ -23,9 +25,9 @@ from argparse import ArgumentParser
 from gooey import Gooey, GooeyParser
 
 
-@Gooey(dump_build_config=False, program_name='DOMMinator')
+@Gooey(dump_build_config=False, program_name='Pre-Treat')
 def main():
-    desc = 'A Gooey (GUI) app that runs standard metadata processes'
+    desc = 'A GUI program for cleaning tabular data'
 
     parser = GooeyParser(description=desc)
     # Add ability to choose a file
