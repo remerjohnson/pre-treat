@@ -1,10 +1,16 @@
 # Pre-Treat
 
-In order to generate linked data sets, your metadata needs to be very clean. Current tools like [OpenRefine](https://openrefine.org/) are the "power tools" for cleaning messy data.  
+In order to generate linked data sets, your metadata needs to be _very_ clean. Current tools like [OpenRefine](https://openrefine.org/) are the "power tools" for cleaning messy data.  
 
 But often, some cleaning has to be performed on your tabular data before it's even ready for those tools. That's where Pre-Treat comes in.  
 
-Pre-Treat performs simple yet powerful cleaning operations on Excel sheets in a GUI interface with a simple input/output operation. 
+Pre-Treat performs simple yet powerful cleaning operations on spreadsheets in a GUI interface with a simple input/output operation. The idea is that catching these data anomalies early isn't just cleaning, but leads into data validation, things that are much harder to do once the data is more mature, or has gone through several transformations.  
+
+## Special Note on Development
+
+This repo has been in stasis since I left the library where these data needs originated.  
+
+If you would like a great GUI-based program that has similar ideas to Pre-Treat (and is much better!), I highly recommend [DataHarmonizer](https://github.com/cidgoh/DataHarmonizer) 
 
 ## Features 
 
